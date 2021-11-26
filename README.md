@@ -43,36 +43,39 @@ Example for a record of dataset:
     	}
 ``` 
  
- <!-- Labeling process -->
 ## Labeling process
 
 - The article should be classified under one over three sentiment: Negative, Positive and Neutral. 
 	
 - The article will then be classified by topics: (em đính các topics sau ạ). Each article can carry numerous relevant and suitable topics. 
 
- <!-- Reviewing process -->
 ## Reviewing process
 
 - 20% of the labeled records will be assigned to someone different from the first labeler to relabel and compare with the original version.
 
 - Quality Assurance members will randomly check 20-50% of the total labeled records.
 
- <!-- Updating process -->
 ## Updating process
 
 - The raw data is expected to be fully uploaded at one time.
 
 - The annotated records are expected to be updated once a month to official repository of DANeS (https://github.com/dataset-vn/DANeS)
 
- <!-- Community contributions -->
 ## Community contributions
+<a href="https://github.com/QueAnh232323/Testing/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=QueAnh232323/Testing" />
+</a>
 
- <!-- How to cite the dataset -->
 ## How to cite the dataset
 
- <!-- Contact -->
 ## Contact
 
+DATASET.JSC - Tele number - email.com
 
+Website: [Dataset.vn](http://dataset.vn)
+
+LinkedIn: [Dataset.vn - Data Crowdsourcing Platform](https://www.linkedin.com/company/dataset-vn/about/)
+
+Facebook: [Dataset.vn - Data Crowdsourcing Platform](https://www.facebook.com/dataset.vn)
 
 
