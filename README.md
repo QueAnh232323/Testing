@@ -23,8 +23,6 @@ We hope to support the community by providing a multi-purpose set of raw data fo
   </ol>
 </details>
 
-[Example 1 Heading](#reviewing-process)
-
 ## Data format
 The records are stored in [`.json`](https://www.json.org) format, Here’s the example of the format:
 
