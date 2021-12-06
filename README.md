@@ -10,17 +10,17 @@ DANeS được đưa ra để phục vụ cộng đồng và các dự án AI t�
 <!-- TABLE OF CONTENTS -->
 ## Mục lục
   <ol>
-    <li><a href="#folder-tree">Folder Tree</a></li>
-    <li><a href="#data-format">Data format</a>
-    <li><a href="#labeling-process">Labeling process</a></li>
-    <li><a href="#reviewing-process">Reviewing process</a></li>
-    <li><a href="#updating-process">Updating process</a></li>
-    <li><a href="#license-of-annotated-dataset">License of annotated dataset</a></li>
-    <li><a href="#about-us">About-us</a></li>
+    <li><a href="#cây-thư-mục">Cây thư mục</a></li>
+    <li><a href="#định-dạng-dữ-liệu">Định dạng dữ liệu</a>
+    <li><a href="#quy-trình-dán-nhãn">Quy trình dán nhãn</a></li>
+    <li><a href="#quy-trình-review">Quy trình review</a></li>
+    <li><a href="#quy-trình-cập-nhật">Quy trình cập nhật</a></li>
+    <li><a href="#bản-quyền">Bản quyền</a></li>
+    <li><a href="#về-chúng-tôi">Về chúng tôi</a></li>
   </ol>
 </details>
 
-## Folder Tree
+## Cây thư mục
 	DANeS
 	  |
 	  |____README.md
@@ -44,8 +44,8 @@ DANeS được đưa ra để phục vụ cộng đồng và các dự án AI t�
 		   |____ README.md
 		   |____ LICENSE
  
-## Data format
-The raw dataset is stored in raw_data folder with [`.json`](https://www.json.org) format and has been divided into 8 batches. Each batch has an array that contains many json and each json is a record of the dataset. Here’s the example of each record's format:
+## Định dạng dữ liệu
+Dữ liệu thô được lưu trữ trong thư mục raw_data dưới định dạng là tệp tin [`.json`](https://www.json.org) và được chia ra làm 8 batch. Mỗi batch bao gồm 1 mảng chứa nhiều json và mỗi json là 1 bản ghi của bộ dữ liệu. 
 
 | Key          | Type                   | Description                                  |
 | ------------ | -----------------------| -------------------------------------------- |
@@ -54,7 +54,7 @@ The raw dataset is stored in raw_data folder with [`.json`](https://www.json.org
 | uri          | string                 | link to the digital news                     |
 | description  | string                 | description of the digital news              |
 
-Example for a record of dataset:
+Dưới đây là ví dụ về định dạng của mỗi bản ghi:
 ```javascript
 {
         "text": "Ba ra đi vào ngày nhận điểm thi, nữ sinh được hỗ trợ học phí",
@@ -65,7 +65,7 @@ Example for a record of dataset:
 }
 ``` 
  
-## Quy trình dán nhãn:
+## Quy trình dán nhãn
 - Bước 1: Đăng nhập.
 
 ![DANeS 1 (1)](https://user-images.githubusercontent.com/94349957/144125798-d2ae5738-df36-4ca2-a1a3-778fd7dd5dd7.gif)
@@ -76,7 +76,7 @@ Example for a record of dataset:
 
 ![DANeS 2](https://user-images.githubusercontent.com/94349957/144266113-511ad9c8-6f06-42a6-84be-dd23f7f2b9fa.gif)
 
-## Quy trình review:
+## Quy trình review
 
 - Người review và kiểm tra chéo sẽ được quản lý hoặc chủ sở hữu dự án lựa chọn từ những CTV dựa trên chất lượng công việc và thái độ trong quá trình làm việc.
 - Quy trình review data gồm 2 bước: kiểm tra chéo và review
@@ -92,12 +92,15 @@ Example for a record of dataset:
 - Phần dữ liệu gồm các bản ghi đã được dán nhãn sẽ được cập hàng tháng trên trang chính thức của DANeS tại Github. (https://github.com/dataset-vn/DANeS)
 
 
-## License of annotated dataset
+## Bản quyền
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Giấy phép Creative Commons " style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />
-The annotated dataset of DANeS is licensed under Creative Commons Attribution 4.0 International License.
+Phần dữ liệu được dán nhãn thuộc DANeS được cấp phép theo Giấy phép Quốc tế Creative Commons Attribution 4.0 (CC BY 4.0).
 
-This license lets others distribute, remix, tweak, and build upon your work, even commercially, as long as they credit you for the original creation. This is the most accommodating of licenses offered. Recommended for maximum dissemination and use of licensed materials.
+Với loại giấy phép này bạn có thể:
+- Sao chép, chỉnh sửa, phân phối và xây dựng sản phẩm của bạn dựa trên các dữ liệu đã công bố trong dự án này ở bất kì định dạng hoặc bất kỳ phương tiện nào.
+- Chỉnh sửa, biến đổi và xây dựng lại cho mọi mục đích, kể cả mục đích thương mại.
+Tuy nhiên bạn cần phải trích dẫn nguồn gốc của tài liệu này khi mà bạn sử dụng bất kỳ dữ liệu đã được dán nhãn và công bố trong bộ dữ liệu DANeS này.
 
 ## Về chúng tôi
 
