@@ -68,13 +68,13 @@ Dưới đây là ví dụ về định dạng của mỗi bản ghi:
 ## Quy trình dán nhãn
 - Bước 1: Đăng nhập.
 
-![DANeS 1 (1)](https://user-images.githubusercontent.com/94349957/144125798-d2ae5738-df36-4ca2-a1a3-778fd7dd5dd7.gif)
+![DANeS redo 1](https://user-images.githubusercontent.com/94349957/144919125-6c21c457-4cf0-4a07-82c4-9689ff7d613d.gif)
 
 - Bước 2: Dán nhãn.
 	+ Tiêu đề được phân loại sắc thái: tích cực, tiêu cực, trung tính.
 	+ Tiêu đề được phân loại vào các chủ đề liên quan trong 22 chủ đề:Thế giới, Chính trị, Kinh tế, Thể thao, Văn hoá, Giải trí, Công nghệ, Khoa học, Giáo dục, Đời sống, Pháp luật, Bất động sản, Xã hội, Giao thông, Môi trường, Chứng khoán, Covid-19, Hóng biến, Game, Phim ảnh, Sức khoẻ, Du lịch
 
-![DANeS 2](https://user-images.githubusercontent.com/94349957/144266113-511ad9c8-6f06-42a6-84be-dd23f7f2b9fa.gif)
+![DANeS redo 2](https://user-images.githubusercontent.com/94349957/144919228-fbda5c51-9b7f-47ef-a51e-ca95813419c7.gif)
 
 ## Quy trình review
 
